@@ -1,0 +1,134 @@
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .order-summary {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  h1 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .plan {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .plan img {
+    margin-right: 15px;
+  }
+  
+  .plan-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .plan-info {
+    display: flex;
+    flex-direction: column; 
+  }
+  .plan-details h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  .plan-details p {
+    color: hsl(224, 23%, 55%);
+    margin: 5px 0;
+  }
+  
+  .plan-details a {
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+  }
+  
+  .plan-details a:hover {
+    color: hsl(223, 47%, 23%); 
+  }
+  
+
+  .primary-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    padding: 18px; 
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .primary-btn:hover {
+    background-color: hsl(245, 75%, 60%); 
+  }
+  
+  .cancel-btn {
+    background: none;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 1.1rem; 
+    cursor: pointer;
+    padding: 18px; 
+    transition: color 0.3s ease; 
+  }
+  
+  .cancel-btn:hover {
+    color: hsl(223, 47%, 23%); 
+  }
+  
+
+  @media (max-width: 375px) {
+    .order-summary {
+      padding: 20px;
+    }
+    
+    .primary-btn, .cancel-btn {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+    
